@@ -1,0 +1,98 @@
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+    .How-Work .How-Work-title p{
+        font-size: 130%;
+        color: #627d98;
+    }
+    footer{
+        text-align: center;
+    }
+    .Contact .Contact-text a{
+        color: #e1a802;
+        font-size: 140%;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .How-Work .How-Video{
+        width: 500px !important;
+        height: 282px !important;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+    }
+    .Fetaure .card{
+        margin: 10px 20px 0px 20px;
+    }
+    .Fetaure .adjust{
+        text-align: left !important;
+        margin: 0 auto;
+    }
+    .sm-adjust{
+        text-align: center !important;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .How-Work .How-Video{
+        width: 600px;
+        height: 338px;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+    }
+    footer .footer-menu a{
+        font-size: 140%;
+        padding: 10px 10px !important;
+    }
+    .sm-adjust{
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    .Faq .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+/* Mobile Screen */
+    .full-nav{
+        display: none !important;
+    }
+    .mid-nav{
+        display: block !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sm-adjust{
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    .hero-text h1{
+        font-size: 450%;
+        margin-bottom: 40px;
+    }
+/* Mobile Screen */
+    .full-nav{
+        display: block;
+    }
+    .mid-nav{
+        display: none;
+    }
+}
+@media (max-width: 1600px) {
+/* Mobile Screen */
+    .full-nav{
+        display: block;
+    }
+    .mid-nav{
+        display: none;
+    }
+}
